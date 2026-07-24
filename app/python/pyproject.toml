@@ -1,0 +1,12 @@
+[project]
+name = "hyperframes-video-studio-kokoro"
+version = "0.1.0"
+description = "Local Kokoro runtime for HyperFrames Video Studio"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "kokoro-onnx",
+  "soundfile",
+]
+
+[tool.uv]
+package = false
